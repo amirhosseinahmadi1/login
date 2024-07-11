@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+.userForm {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 250px;
+    margin-top: 110px;
+    margin-left: 550px;
+    justify-content: end;
+    gap: 5px;
+    border-radius: 10px;
+
+}
+
+input {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 200px;
+    height: 30px;
+}
+
+.sle {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 200px;
+    height: 30px;
+}
+
+.sub {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+h1{
+    color: blue;
+    margin-left: 25px;
+
+}
+p{
+    color: gray;
+
+}
